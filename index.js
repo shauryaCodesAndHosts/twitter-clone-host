@@ -21,7 +21,7 @@ const connect = () => {
             console.log("Connect to MongoDB database");
         })
         .catch( (err) => {
-            throe.error(err);
+            throw.error(err);
         });
 };
 
